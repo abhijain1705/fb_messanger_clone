@@ -47,7 +47,9 @@ function App() {
   return (
     <div className="App mx-auto">
     <img width={50} height={50} src='/messenger.png' />
-      <h1>Messenger</h1>
+
+      <h1>Messenger Clone</h1>
+
 
       <form className="p-[20px] fixed bottom-0 bg-[#e9e9eb] z-[1] w-[80%] mx-auto mt-[50px] flex items-center">
         <input id='inp' placeholder="Enter a message..." className="focus:outline-0 lg:w-[90%] md:w-[85%] w-[70%] p-2 border-b-4 border-indigo-500" onChange={(e) => setinput(e.target.value)} value={input} />
